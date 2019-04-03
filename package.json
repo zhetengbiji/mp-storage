@@ -1,0 +1,30 @@
+{
+  "name": "mp-storage",
+  "version": "1.0.0",
+  "description": "小程序 Storage 垫片，用于在各个小程序平台实现 localStorage、sessionStorage。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhetengbiji/mp-storage.git"
+  },
+  "keywords": [
+    "localStorage",
+    "sessionStorage",
+    "小程序",
+    "mp",
+    "mpvue",
+    "uniapp"
+  ],
+  "author": "Shengqiang Guo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhetengbiji/mp-storage/issues"
+  },
+  "homepage": "https://github.com/zhetengbiji/mp-storage#readme",
+  "devDependencies": {
+    "@types/uni-app": "^1.0.0"
+  }
+}
