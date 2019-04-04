@@ -1,0 +1,19 @@
+{
+  "name": "uni-app-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mp-storage": "^1.0.1",
+    "vuex-persistedstate": "^2.5.4"
+  }
+}

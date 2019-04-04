@@ -1,6 +1,6 @@
 {
   "name": "mp-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "小程序 Storage 垫片，用于在各个小程序平台实现 localStorage、sessionStorage。",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,10 @@
     "小程序",
     "mp",
     "mpvue",
-    "uniapp"
+    "uniapp",
+    "vuex",
+    "vuex-persistedstate",
+    "vuex-persist"
   ],
   "author": "Shengqiang Guo",
   "license": "ISC",

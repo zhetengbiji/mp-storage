@@ -6,6 +6,10 @@
 
 当移植一些依赖 localStorage、sessionStorage 的组件、类库到小程序时，为了避免大量改动可以在其中引入此垫片。
 
+当直接使用一些可配置 storage 参数的类库（如：vuex-persistedstate、vuex-persist ）时，也可使用此垫片。
+
+uni-app 示例：[mp-storage、vuex-persistedstate 使用演示](https://github.com/zhetengbiji/mp-storage/tree/master/test/uni-app)
+
 ## 使用方式
 
 ### NPM
@@ -38,6 +42,8 @@ import { localStorage, sessionStorage } from '../../js/mp-storage/index.js'
 
 ## 示例
 
+直接使用
+
 ```js
 import { localStorage } from '../../js/mp-storage/index.js'
 // 推荐用法
@@ -46,6 +52,23 @@ console.log(localStorage.getItem('test')) // 123
 // 不推荐用法
 localStorage.test = '123'
 console.log(localStorage.test) // 123
+```
+
+在 vuex-persistedstate 中使用
+
+```js
+import { Store } from 'vuex'
+import createPersistedState from 'vuex-persistedstate'
+import { localStorage } from 'mp-storage'
+
+const store = new Store({
+  // ...
+  plugins: [
+    createPersistedState({
+      storage: localStorage
+    })
+  ]
+})
 ```
 
 ## 注意事项
