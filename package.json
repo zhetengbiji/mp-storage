@@ -1,6 +1,6 @@
 {
   "name": "mp-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "小程序 Storage 垫片，用于在各个小程序平台实现 localStorage、sessionStorage。",
   "main": "index.js",
   "scripts": {

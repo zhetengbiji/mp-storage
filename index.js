@@ -56,7 +56,7 @@ function init() {
                     if (isSession) {
                         delete sessionStorageDict[key]
                     } else {
-                        api.removeStorage(key)
+                        api.removeStorageSync(key)
                     }
                     this.__removeKey(key)
                 },
