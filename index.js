@@ -1,4 +1,4 @@
-var api = uni
+var api
 
 export var localStorage = {}
 
